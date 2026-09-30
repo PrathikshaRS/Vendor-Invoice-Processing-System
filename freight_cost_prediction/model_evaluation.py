@@ -32,7 +32,7 @@ def evaluate_model(model, X_test, y_test, model_name: str)-> dict:
 
     return {
         "model_name": model_name,
-        "r2_score": r2,
-        "mean_absolute_error": mae,
-        "root_mean_squared_error": rmse
+        "mae": mae,
+        "rmse": rmse,
+        "r2": r2
     }

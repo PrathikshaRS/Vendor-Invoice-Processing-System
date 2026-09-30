@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd 
 from sklearn.model_selection import train_test_split
 
-def load_data_from_db(db_path, str):
+def load_data_from_db(db_path):
     """
     Load data from a SQLite database table into a pandas DataFrame.
 
